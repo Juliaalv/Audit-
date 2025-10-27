@@ -1,0 +1,64 @@
+================================================================================
+MONITORAMENTO INICIADO
+================================================================================
+BackupManager inicializado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor
+LogManager inicializado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\Logs Resumo
+Resumo diário salvo: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\Logs Resumo\resumo_20251026.txt
+FileMonitor inicializado
+2025-10-26 18:51:39 - Monitoramento iniciado em: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225
+2025-10-26 18:52:52 - MODIFICADO: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\vamos..txt | Usuário: Júlia
+2025-10-26 18:52:52 - Backup criado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\vamos.\vamos._20251026_185252_Júlia.txt
+2025-10-26 18:53:02 - CRIADO: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\teste02 - Copia.txt | Usuário: Júlia
+2025-10-26 18:53:02 - Backup criado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\teste02 - Copia\teste02 - Copia_20251026_185302_Júlia.txt
+2025-10-26 18:53:46 - MODIFICADO: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\teste02.txt | Usuário: Júlia
+2025-10-26 18:53:46 - Backup criado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\teste02\teste02_20251026_185346_Júlia.txt
+2025-10-26 18:53:54 - MODIFICADO: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\teste02.txt | Usuário: Júlia
+2025-10-26 18:53:54 - Backup criado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\teste02\teste02_20251026_185354_Júlia.txt
+2025-10-26 18:54:04 - CRIADO: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\Novo(a) Documento de Texto.txt | Usuário: Júlia
+Erro ao criar backup de C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\Novo(a) Documento de Texto.txt: [WinError 32] O arquivo já está sendo usado por outro processo
+2025-10-26 18:54:24 - DELETADO: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\teste.prj.txt | Usuário: Júlia
+Resumo diário salvo: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\Logs Resumo\resumo_20251026.txt
+2025-10-26 18:54:29 - Monitoramento interrompido pelo usuário
+================================================================================
+MONITORAMENTO INICIADO
+================================================================================
+BackupManager inicializado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor
+LogManager inicializado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\Logs Resumo
+Resumo diário salvo: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\Logs Resumo\resumo_20251026.txt
+FileMonitor inicializado
+2025-10-26 18:59:05 - Monitoramento iniciado em: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225
+2025-10-26 18:59:24 - CRIADO: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\teste02 - Copia (2).txt | Usuário: Júlia
+2025-10-26 18:59:24 - Backup criado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\teste02 - Copia (2)\teste02 - Copia (2)_20251026_185924_Júlia.txt
+2025-10-26 18:59:29 - CRIADO: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\teste02 - Copia (3).txt | Usuário: Júlia
+2025-10-26 18:59:29 - Backup criado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\teste02 - Copia (3)\teste02 - Copia (3)_20251026_185929_Júlia.txt
+2025-10-26 18:59:39 - MODIFICADO: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\vamos..txt | Usuário: Júlia
+2025-10-26 18:59:39 - Backup criado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\vamos.\vamos._20251026_185939_Júlia.txt
+2025-10-26 19:00:13 - CRIADO: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\vamos. - Copia.txt | Usuário: Júlia
+Erro ao criar backup de C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\vamos. - Copia.txt: [WinError 32] O arquivo já está sendo usado por outro processo
+================================================================================
+MONITORAMENTO INICIADO
+================================================================================
+BackupManager inicializado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor
+LogManager inicializado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\Logs Resumo
+Resumo diário salvo: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\Logs Resumo\resumo_20251026.txt
+FileMonitor inicializado
+2025-10-26 19:02:04 - Monitoramento iniciado em: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225
+2025-10-26 19:02:24 - DELETADO: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\vamos. - Copia.txt | Usuário: Júlia
+2025-10-26 19:02:28 - DELETADO: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\teste02 - Copia (3).txt | Usuário: Júlia
+2025-10-26 19:02:31 - DELETADO: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\teste02 - Copia (2).txt | Usuário: Júlia
+================================================================================
+MONITORAMENTO INICIADO
+================================================================================
+BackupManager inicializado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor
+LogManager inicializado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\Logs Resumo
+Resumo diário salvo: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\Logs Resumo\resumo_20251026.txt
+FileMonitor inicializado
+2025-10-26 19:05:46 - Monitoramento iniciado em: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225
+2025-10-26 19:05:55 - CRIADO: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\t01 - Copia.txt | Usuário: Júlia
+2025-10-26 19:05:55 - Backup criado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\t01 - Copia\t01 - Copia_20251026_190555_Júlia.txt
+2025-10-26 19:06:03 - CRIADO: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\t01 - Copia - Copia.txt | Usuário: Júlia
+2025-10-26 19:06:03 - Backup criado: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\t01 - Copia - Copia\t01 - Copia - Copia_20251026_190603_Júlia.txt
+2025-10-26 19:06:07 - DELETADO: C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225\teste02.txt | Usuário: Júlia
+Log consolidado salvo: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\Logs Consolidados\log_consolidado_20251026.txt
+Resumo diário salvo: C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor\Logs Resumo\resumo_20251026.txt
+2025-10-26 19:06:11 - Monitoramento interrompido pelo usuário
