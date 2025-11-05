@@ -1,0 +1,14 @@
+======================================================================
+RESUMO DE MONITORAMENTO - 05/11/2025
+======================================================================
+
+1. TOTAL DE MODIFICAÇÕES: 0
+   Número de alterações realizadas no diretório monitorado.
+
+2. ARQUIVOS MODIFICADOS: 0
+   Quantidade de arquivos diferentes que sofreram alterações.
+
+3. DETALHAMENTO POR ARQUIVO:
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Gerado em: 2025-11-05 13:10:44

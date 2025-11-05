@@ -1,0 +1,10 @@
+================================================================================
+MONITORAMENTO INICIADO
+================================================================================
+BackupManager inicializado: C:temp/BKP TESTE
+LogManager inicializado: C:temp/BKP TESTE\Logs Resumo
+Resumo diário salvo: C:temp/BKP TESTE\Logs Resumo\resumo_20251105.txt
+FileMonitor inicializado
+2025-11-05 13:10:44 - Monitoramento iniciado em: C:/temp/ElipsePower
+2025-11-05 13:15:06 - MODIFICADO: C:/temp/ElipsePower\EMT.txt | Usuário: casm
+2025-11-05 13:15:06 - Backup criado: C:temp/BKP TESTE\EMT\EMT_20251105_131506_casm.txt

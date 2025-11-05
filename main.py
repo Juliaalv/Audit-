@@ -46,8 +46,8 @@ def main():
     # ========================================================================
     # CONFIGURE SEUS CAMINHOS AQUI:
     # ========================================================================
-    path_to_watch = r"C:\Users\Júlia\Desktop\Teste\BKPS Elipse\ESS\EnergisaSulSudeste_180225"
-    backup_dir = r"C:\Users\Júlia\Desktop\Teste\Temp\Logs Monitor"
+    path_to_watch = r"C:/temp/ElipsePower"
+    backup_dir = r"C:temp/BKP TESTE"
     resumo_dir = os.path.join(backup_dir, "Logs Resumo")
     log_consolidado_dir = os.path.join(backup_dir, "Logs Consolidados")
     backup_folder_dir = os.path.join(backup_dir, "Backups Pasta Monitorada")
