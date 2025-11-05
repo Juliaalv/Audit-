@@ -14,7 +14,7 @@ from log_manager import LogManager
 from file_monitor import FileMonitor
 
 
-def setup_logging(log_file: str = 'monitor_txt.log') -> None:
+def setup_logging(log_file: str = 'monitor_arquivos.log') -> None:
     """
     Configura o sistema de logging
     
@@ -28,7 +28,8 @@ def setup_logging(log_file: str = 'monitor_txt.log') -> None:
         datefmt='%Y-%m-%d %H:%M:%S'
     )
     logging.info("=" * 80)
-    logging.info("MONITORAMENTO INICIADO")
+    logging.info("MONITORAMENTO DE MÚLTIPLOS ARQUIVOS INICIADO")
+    logging.info("Extensões monitoradas: .dom, .prj, .xml, .lib, .txt")
     logging.info("=" * 80)
 
 
@@ -42,12 +43,14 @@ def main():
     3. Gerenciadores de backup e logs
     4. Monitor de arquivos
     5. Observer do watchdog
+    
+    Extensões monitoradas: .dom, .prj, .xml, .lib, .txt
     """
     # ========================================================================
     # CONFIGURE SEUS CAMINHOS AQUI:
     # ========================================================================
-    path_to_watch = r"C:/temp/ElipsePower"
-    backup_dir = r"C:temp/BKP TESTE"
+    path_to_watch = r"C:/Users/Júlia/Desktop/Teste/monitor"
+    backup_dir = r"C:/Users/Júlia/Desktop/Teste/b"
     resumo_dir = os.path.join(backup_dir, "Logs Resumo")
     log_consolidado_dir = os.path.join(backup_dir, "Logs Consolidados")
     backup_folder_dir = os.path.join(backup_dir, "Backups Pasta Monitorada")
@@ -64,7 +67,7 @@ def main():
         os.makedirs(backup_folder_dir, exist_ok=True)
         
         # Configura logging
-        setup_logging('monitor_txt.log')
+        setup_logging('monitor_arquivos.log')
         
         # ====================================================================
         # INICIALIZA CAMADAS
@@ -102,6 +105,7 @@ def main():
         print("=" * 80)
         print(f"Timestamp: {timestamp}")
         print(f"Diretório: {path_to_watch}")
+        print(f"Extensões monitoradas: .dom, .prj, .xml, .lib, .txt")
         print(f"Backups em: {backup_dir}")
         print(f"Resumos em: {resumo_dir}")
         print(f"Logs consolidados em: {log_consolidado_dir}")

@@ -16,9 +16,13 @@ from log_manager import LogManager
 
 class FileMonitor(FileSystemEventHandler):
     """
-    Monitora eventos do sistema de arquivos para arquivos .txt
+    Monitora eventos do sistema de arquivos para múltiplas extensões
     Coordena backup e registro de modificações
+    Extensões monitoradas: .dom, .prj, .xml, .lib, .txt
     """
+    
+    # Extensões de arquivo a monitorar
+    MONITORED_EXTENSIONS = ('.dom', '.prj', '.xml', '.lib', '.txt')
     
     def __init__(self, backup_manager: BackupManager, log_manager: LogManager):
         """
@@ -32,7 +36,23 @@ class FileMonitor(FileSystemEventHandler):
         self.backup_manager = backup_manager
         self.log_manager = log_manager
         self.last_events: Dict[str, float] = {}
-        logging.info("FileMonitor inicializado")
+        extensions_str = ', '.join(self.MONITORED_EXTENSIONS)
+        logging.info(f"FileMonitor inicializado para monitorar: {extensions_str}")
+
+    def is_monitored_file(self, filepath: str) -> bool:
+        """
+        Verifica se o arquivo tem uma extensão monitorada
+        
+        Args:
+            filepath (str): Caminho do arquivo
+            
+        Returns:
+            bool: True se extensão está na lista de monitoramento
+        """
+        for ext in self.MONITORED_EXTENSIONS:
+            if filepath.lower().endswith(ext):
+                return True
+        return False
 
     def process_event(self, event, action: str) -> None:
         """
@@ -42,8 +62,8 @@ class FileMonitor(FileSystemEventHandler):
             event: Evento capturado pelo watchdog
             action (str): Tipo de ação (CRIADO, MODIFICADO, DELETADO)
         """
-        # Valida se é arquivo .txt
-        if event.is_directory or not event.src_path.endswith('.txt'):
+        # Valida se é arquivo com extensão monitorada
+        if event.is_directory or not self.is_monitored_file(event.src_path):
             return
         
         # Filtra eventos duplicados muito próximos
