@@ -1,6 +1,6 @@
 # 📁 Monitor de Arquivos com Backup
 
-Um sistema simples e eficiente para monitorar arquivos `.txt`, criar backups automáticos e gerar logs detalhados.
+Um sistema simples e eficiente para monitorar arquivos '.dom','.prj', '.xml', '.lib', '.txt' , criar backups automáticos e gerar logs detalhados.
 
 ---
 
