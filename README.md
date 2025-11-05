@@ -11,6 +11,5 @@ Um sistema simples e eficiente para monitorar arquivos `.txt`, criar backups aut
 -  **Logs Consolidados** - Registra todas as ações em um arquivo único
 -  **Resumos Diários** - Gera relatório com estatísticas do dia
 -  **Limpeza Automática** - Remove backups e logs antigos
--  **Limpeza Automática** - Remove backups e logs antigos
 
 ---
